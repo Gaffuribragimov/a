@@ -1,0 +1,31 @@
+.main-box{
+    border: 3px solid salmon;
+}
+.item-box{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+
+
+}
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+
+}
+#item1, #item3{
+    height: 30px;
+}
+
+
+/*order: 3;#item1{
+ order: 2;
+}
+#item2{
+order: `1;
+} } */
+
